@@ -7,11 +7,3 @@ int linear_search(int arr[], int n, int find) {
       return i;
   return -1;
 }
-
-int main() {
-  int arr[] = {4, 6, 8, 11, 2, 7};
-  int x = 2;
-  int n = sizeof(arr) / sizeof(arr[0]);
-  int kq = linear_search(arr, n, x);
-  (kq == -1) ? printf("Không tìm thấy") : printf("Giá trị cần tìm nằm tại vị trí: %d", kq);
-}
